@@ -74,6 +74,16 @@ func main() {
 	fmt.Println(secondOrder)
 	fmt.Println(secondOrder.status)
 
+	//=========================================part =========2===================================
+
+	//creating inline struct other conventional "type nameOfClass struct{}" like this we have to do
+	language := struct {
+		name string 
+		isGood bool
+	}{"golang", true}
+
+	fmt.Println(language)
 
 	
+
 }
