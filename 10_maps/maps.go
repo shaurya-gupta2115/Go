@@ -67,6 +67,19 @@ func main(){
 		fmt.Println("not ok", k)
 	}
 
+	// ye k, ok wali cheez bahut important hai jb hum map se koi value nikal rhe hote hai
+	
+	// comparing maps 
+	//  only nil maps are comparable in go  // iska matlab hai ki hum direct map ko compare nhi kr skte 
+	// except nil maps
+
+	//like agar humne kisi cheez ko delete kr diya hai to wo nil ho jata hai but wo value to 0 deta hai 
+	//to kaise pata lagega ki value 0 hai ya wo key hi map me exist nhi krti hai
+	// to isliye hum ok use krte hai
+	
+
+	// to ok bata deta hai ki agar wo key map me exist krti hai to true return krdega nhi to false return krdega
+
 	m1 := map[string] int{"price":45, "phones":3}
 	m2 := map[string] int{"price":45, "phones":3}
 	
