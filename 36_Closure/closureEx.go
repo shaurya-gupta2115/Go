@@ -84,6 +84,6 @@ func add(x int) func(int) int {
 func main() {
 	add5 := add(5)
 	println(add5(3))  // 8
-	println(add5(7))  // 15
-	println(add5(10)) // 25
+	println(add5(7))  // 20
+	println(add5(10)) // 35
 }
